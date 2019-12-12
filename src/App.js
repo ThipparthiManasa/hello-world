@@ -5,39 +5,26 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import resumeData from './resumeData';
 import './App.css';
 
 class App extends Component{
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
-      resumeData: {}
+      foo: 'bar'
     };
-  }
-
-  componentDidMount() {
-    fetch("../resumeData.json")
-      .then(res => res.json())
-      .then(
-        (result) => {
-          this.setState({resumeData: result});
-        },
-        (error) => {
-          this.setState(error);
-        }
-      )
   }
 
   render(){
     return(
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={resumeData.main}/>
+        <About data={resumeData.main}/>
+        <Resume data={resumeData.resume}/>
+        <Portfolio data={resumeData.portfolio}/>
+        <Contact data={resumeData.main}/>
+        <Footer data={resumeData.main}/>
     </div>
     )
   }
