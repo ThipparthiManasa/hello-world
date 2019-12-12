@@ -2,7 +2,7 @@ export const resumeData = {
   "main": {
     "name":"Manasa Thipparthi",
     "occupation":"Software Developer",
-    "description":"Software Engineer who is a passionate learner and wants to pursue a career in computer science, work in a challenging environment and contribute to the growth of the organization using my technical creative skills which would help in personal and organizational development.",
+    "description":"Self-motivated and analytical software engineer with experience in developing projects from design to deployment and writing robust code for high volume businesses.",
     "image":"profilepic.jpeg",
     "bio":"Software Engineer who is a passionate learner and wants to pursue a career in computer science, work in a challenging environment and contribute to the growth of the organization using my technical creative skills which would help in personal and organizational development.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -62,32 +62,6 @@ export const resumeData = {
         "title":"Software Developer",
         "years":"June 2014 - July 2016",
         "description":"As a software developer, I got an opportunity to work on a real time project. I got an experience to deal with clients and gather requirements. It learned to design an application and implement it. The work gave me a chance to learn and explore new technologies."
-      }
-    ],
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
       }
     ]
   },
