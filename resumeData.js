@@ -1,4 +1,4 @@
-{
+export const resumeData = {
   "main": {
     "name":"Manasa Thipparthi",
     "occupation":"Software Developer",
@@ -137,4 +137,4 @@
       }
     ]
   }
-}
+};
